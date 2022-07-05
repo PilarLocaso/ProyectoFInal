@@ -67,18 +67,103 @@ body{
     background-color: rgb(206, 206, 240);
 }
 
-.grid-container{
+/* Footer */
+
+.pie-pagina{
     width: 100%;
-    display: grid;
-    grid-template-rows: 200px 200px;
-    grid-template-columns: 1fr 1fr;
+    background-color: rgb(170, 170, 231);
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: flex;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-2{
+    background-color: rgb(103, 103, 196);
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilos del html "Nosotros" */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(206, 206, 240);
+}
+
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    background: white;
     margin-top: 100px;
-    margin-bottom: 100px;
+    border-top: 6px solid #65d6a6;
 }
 
 .title{
-    font-size: 20px;
-    margin-bottom: 40px;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.sub-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container-all img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container-all p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
 }
 
 .pie-pagina{
