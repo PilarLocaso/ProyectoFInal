@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.logo{
+    height: 70vh;
+    display: block;
+    margin: 0px auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.NavBar{
+    background-color: rgb(103, 103, 196);
+    border: solid black;
+}
+
+.NavBar__lista{
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productos-seleccionados{
+    font-family: 'Dancing Script', cursive;
+}
+
+.imagenes{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.imagenes__card{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+body{
+    background-color: rgb(170, 170, 231);
+}
+
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(170, 170, 231);
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: flex;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-2{
+    background-color: rgb(103, 103, 196);
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
